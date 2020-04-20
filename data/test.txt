@@ -1,0 +1,39 @@
+var
+    int m n ;
+    double x y ;
+    string str ;
+    char ch ;
+endvar
+
+= str "Hello" 
+= m 900 
+= n 10 
+= x 4.5 
+= y 45.0 
+= ch 'x' 
+print str , m , n , x , y , ch ;
+print str m n x y ch ;
+print str ,, m ;
+= m // m n 
+= x / y x 
+print "here is a message: " , m , x ;
+if
+   { > m n : if { > 10 5 : print "m is big" ; } fi }
+   { < m n : print "m is little" ; }
+   { == m n : print "m is m" ; }
+fi
+
+read "enter two integers (separate lines): " m n ;
+print m, n ;
+
+print 453.25 , 'd' , "hello" ;
+
+= str ch 
+= n int ch 
+= x double ch 
+= y + m n 
+print str , n , x , y ;
+= n int "456" 
+print n ;
+= n int 5.5 
+print n ;
